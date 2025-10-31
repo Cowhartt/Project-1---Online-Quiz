@@ -1,1 +1,103 @@
-h1 = color: :red
+
+/* whole page background and font */
+body {
+  background-color: #fff4db;
+  font-family: 'Poppins', sans-serif;
+  color: #5c3b23;
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+}
+
+/* main heading */
+h1 {
+  color: #000000;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Subheading */
+h2 {
+  color: #000000;
+  margin-top: 30px;
+}
+
+/* text */
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 10px auto; /* Centers paragraph */
+}
+
+/* adds a box to the page */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Submit button */
+.start-btn {
+  display: inline-block;
+  background-color: #6b4a2b;
+  color: white;
+  padding: 14px 28px;
+  font-size: 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 25px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.start-btn:hover {
+  background-color: #000000;
+}
+#quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#answers button {
+  width: 80%;
+}
+.feedback {
+  font-size: 1.3em;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#next-btn {
+  margin-top: 25px;
+}
+
+#answers button:disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+/* Progress bar container */
+#progress-container {
+  width: 80%;
+  background-color: #ddd;
+  border-radius: 10px;
+  height: 20px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+/* Actual progress fill */
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: #6b4a2b;
+  transition: width 0.3s ease-in-out;
+}
+
+/* Progress text (e.g., "Question 2 of 3") */
+#progress-text {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
