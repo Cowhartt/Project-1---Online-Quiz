@@ -24,15 +24,6 @@ const questions = [
     answers: ["Fégol", "Régol", "Smégol"],
     correct: 2
   },
-  {
-    question: "When do the Greybeards first shout to call the Dragonborn up to High Hrothgar?",
-    answers: [
-      "When you leave Bleak Falls Barrow",
-      "When you first enter Whiterun",
-      "When you collect the horn of Jurgen Windcaller"
-    ],
-    correct: 1
-  },
     {
     question: "What are the name of the two main Characters (Good and Bad) in Transformers?",
     answers: ["Optimus Prime and Megatron", "Optician Grime and Minitron", "Opposite Crime and Massivetron"],
@@ -55,11 +46,6 @@ const questions = [
       "Thanos"
     ],
     correct: [2, 3, 5, 7, 8, 10] // multiple select - put index answers in array
-  },
-  {
-    question: "Who played Captain Jack Sparrow in Pirates of the Caribbean?",
-    answers: ["Johnny Depp", "Johnny Depp", "Johnny Depp"],
-    correct: [0, 1, 2]
   },
    {
     question: "Which TV show does Peter Griffin appear in?",
