@@ -65,6 +65,16 @@ const questions = [
     question: "Which TV show does Peter Griffin appear in?",
     answers: ["The Simpsons", "Family Guy", "South Park"],
     correct: 1
+  },
+  {
+    question: "True or False: Joker's girlfriend is called Harley Quinn.",
+    answers: ["True", "False"],
+    correct: 0
+  },
+  {
+    question: "True or False: In Skyrim, the main shout you learn is: Unrelenting Force (Fus Ro Dah).",
+    answers: ["False", "True"],
+    correct: 0
   }
 ];
 
