@@ -63,7 +63,7 @@ const questions = [
     correct: 0
   }
 ];
-
+var apiQuestions = []
 let currentQuestion = 0;
 let score = 0;
 let answered = false;
@@ -79,6 +79,7 @@ const progressBar = document.getElementById("progress-bar");
 const progressText = document.getElementById("progress-text");
 
 function showQuestion() {
+  fetchQuestions();
   feedbackEl.textContent = "";
   nextBtn.style.display = "none";
   answered = false;
@@ -234,6 +235,33 @@ function showResult() {
   });
 }
 
+async function fetchQuestions(){
+    const url = "https://opentdb.com/api.php?amount=10";
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`);
+    }
+
+    const json = await response.json();
+    console.log(json);
+    console.log("QUESTION")
+console.log(json.results[3].question) 
+console.log("CORRECT ANSWER")
+console.log(json.results[3].correct_answer)
+console.log("INCORRECT-ANSWER")
+var jsonAnswers = json.results[3].incorrect_answers
+for (let i = 0; i < jsonAnswers.length; i++) {
+  console.log(i)
+  console.log(jsonAnswers[i])
+}
+apiQuestions = json.results
+console.log("APIQUESTIONS")
+console.log(apiQuestions)
+  } catch (error) {
+    console.error(error.message);
+  }
+}
 // start
 showQuestion();
 
