@@ -1,15 +1,14 @@
-This READ.md file is my first ever!
+# Project Brief
 
-This is for my project 1 submission.
+## Online Quiz
+- dnfbon
 
-In this I am tasked with creating a website for an online quiz. 
+_sdfnvojns_
+# Tech Used
 
-This will include:
+# Features
+![homepage](./assets/screenshots/homepage.png)
 
-- A read.me file
-- A How To:
-- The quiz itself
-- A scoring page
-- A review page (thoughts and feedback on the quiz)
-
-I am quite nervous and not very confident to get this done without taking a long time but I will do my best so I hope you like it. 
+# Testing
+![indexTest](./assets/screenshots/indexPageTest.png)
+# Future Improvements
