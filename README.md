@@ -38,3 +38,5 @@ I did the same with my styles page on css but there were a few issues. I fix the
 
 # Future Improvements
 I would like to acheive a function that allows for a category choice, with a difficulty setting. 
+
+I would also like to improve my understanding of the _russian doll_ method in an effort to simplify my work into different folders. I did attemp this but, had difficulty with making my code work with href statements. 
