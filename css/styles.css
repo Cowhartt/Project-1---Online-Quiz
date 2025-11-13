@@ -1,5 +1,3 @@
-
-/* whole page background and font */
 body {
   background-color: #fff4db;
   font-family: 'Poppins', sans-serif;
@@ -7,34 +5,27 @@ body {
   text-align: center;
   margin: 0;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 /* main heading */
 h1 {
   color: #000000;
   font-size: 2.5em;
   margin-bottom: 20px;
 }
-
 /* Subheading */
 h2 {
   color: #000000;
   margin-top: 30px;
 }
-
 /* text */
 p {
   font-size: 1.1em;
   line-height: 1.6;
   max-width: 600px;
   margin: 10px auto; /* Centers paragraph */
-}
-
-/* adds a box to the page */
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 /* Submit button */
 .start-btn {
@@ -48,17 +39,11 @@ body {
   margin-top: 25px;
   transition: background-color 0.3s ease;
 }
-
-/* Hover effect */
-.start-btn:hover {
-  background-color: #000000;
-}
 #quiz-container {
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
 }
-
 #answers button {
   width: 80%;
 }
@@ -67,11 +52,9 @@ body {
   margin-top: 15px;
   font-weight: bold;
 }
-
 #next-btn {
   margin-top: 25px;
 }
-
 #answers button:disabled {
   cursor: not-allowed;
   opacity: 0.8;
@@ -85,7 +68,6 @@ body {
   margin: 20px auto;
   overflow: hidden;
 }
-
 /* Actual progress fill */
 #progress-bar {
   height: 100%;
@@ -93,20 +75,17 @@ body {
   background-color: #6b4a2b;
   transition: width 0.3s ease-in-out;
 }
-
 /* Progress text (e.g., "Question 2 of 3") */
 #progress-text {
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 20px;
 }
-
 #start-screen {
   text-align: center;
   margin-top: 120px;
   font-family: 'Poppins', sans-serif;
 }
-
 #loading-screen {
   position: absolute;
   top: 45%;
@@ -117,13 +96,11 @@ body {
   font-weight: 600;
   animation: pulse 1.5s infinite;
 }
-
 @keyframes pulse {
   0% { opacity: 0.5; }
   50% { opacity: 1; }
   100% { opacity: 0.5; }
 }
-
 .start-btn:hover {
   background-color: #ffb733;
   transform: scale(1.05);
@@ -142,8 +119,13 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
 #restart-btn:hover {
   background-color: #ffb733;
   transform: scale(1.05);
+}
+button {
+  font-family: inherit;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
