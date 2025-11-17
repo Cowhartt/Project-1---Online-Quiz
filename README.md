@@ -36,6 +36,9 @@ In my testing, I have taken screenshots of a couple of examples of my code to se
 ![](./assets/screenshots/stylesPageTest-errors.png)
 I did the same with my styles page on css but there were a few issues. I fixed these issues by condensing the body headers and deleting a start button function as the second overrides the first. 
 
+# Accessability
+See the below Lighthouse report: 
+![lightHouse](./assets/screenshots/lightHouse.png)
 # Future Improvements
 I would like to acheive a function that allows for a category choice, with a difficulty setting. 
 
