@@ -32,11 +32,11 @@ At the end of the quiz, you are shown your results as a percentage with how many
 #### To help with my testing I used an HTML checker.
 https://validator.w3.org/nu/#textarea
 ![indexTest](./assets/screenshots/indexPageTest.png)
-In my testing, I have taken screenshots of each main page of my code to see if there are any errors. In this case, for my index.html file. There are no errors.
+In my testing, I have taken screenshots of a couple of examples of my code to see if there are any errors. In this case, for my index.html file. There are no errors.
 ![](./assets/screenshots/stylesPageTest-errors.png)
-I did the same with my styles page on css but there were a few issues. I fix these issues by condensing the body headers and deleting a start button function as the second overrides the first. 
+I did the same with my styles page on css but there were a few issues. I fixed these issues by condensing the body headers and deleting a start button function as the second overrides the first. 
 
 # Future Improvements
 I would like to acheive a function that allows for a category choice, with a difficulty setting. 
 
-I would also like to improve my understanding of the _russian doll_ method in an effort to simplify my work into different folders. I did attemp this but, had difficulty with making my code work with href statements. 
+I would also like to improve my understanding of the _relative paths_ in an effort to simplify my work into different folders. I did attemp this but, had difficulty with making my code work with href statements. 
